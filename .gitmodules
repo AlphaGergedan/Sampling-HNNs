@@ -1,0 +1,3 @@
+[submodule "src/swimnetworks"]
+	path = src/swimnetworks
+	url = git@github.com:AlphaGergedan/swimnetworks.git
