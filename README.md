@@ -7,13 +7,13 @@ Available models are:
 using automatic differentiation and Hamilton's equations. [paper](https://arxiv.org/abs/1906.01563v2)
 
 All the models are available in sampled form. Sampled models have the **S-** prefix, which stands
-for **sampled**. In this case, the model's hidden layer parameters are sampled, and the network's
+for **Sampled**. In this case, the model's hidden layer parameters are sampled, and the network's
 last layer is set using the least-squares solution. Different sampling options and resampling
 using approximate values are available for the SWIM method. [paper](https://arxiv.org/abs/2306.16830)
 
 Here are the sampled models with their architecture illustrations:
-- **Sampled-MLP**: ![sampled-ode-net](assets/r-mlp.png)
-- **Sampled-HNN**: ![sampled-hnn](assets/r-hnn.png)
+- **Sampled-MLP**: ![sampled-ode-net](assets/s-mlp.png)
+- **Sampled-HNN**: ![sampled-hnn](assets/s-hnn.png)
 
 ---
 
