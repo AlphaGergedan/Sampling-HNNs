@@ -1,0 +1,14 @@
+name: s-hnn
+channels:
+  - defaults
+dependencies:
+  - python=3
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - scikit-learn
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchaudio
+  - torchvision
+  - torchinfo
