@@ -1,0 +1,265 @@
+64
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.0
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.1
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.2
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.3
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.4
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.5
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.6
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.7
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.8
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 0.9
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.henon_heiles.HenonHeiles object at 0x2b304cb5a4b0>, q_lims=[[-5.0, 5.0], [-5.0, 5.0]], p_lims=[[-5.0, 5.0], [-5.0, 5.0]], train_size=20000, test_size=20000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=5000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-5.0, elm_bias_end=5.0, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1.0

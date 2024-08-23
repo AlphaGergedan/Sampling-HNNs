@@ -1,0 +1,2401 @@
+64
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=100, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 100
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=200, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 200
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=300, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 300
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=400, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 400
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 500
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=600, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 600
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=700, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 700
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=800, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 800
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=900, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 900
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1100, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1100
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1200, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1200
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1300, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1300
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1400, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1400
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1500
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1600, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1600
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1700, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1700
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1800, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1800
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1900, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1900
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afbfd712e40>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=2000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 2000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=100, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 100
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=200, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 200
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=300, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 300
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=400, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 400
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 500
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=600, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 600
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=700, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 700
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=800, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 800
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=900, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 900
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1100, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1100
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1200, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1200
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1300, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1300
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1400, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1400
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1500
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1600, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1600
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1700, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1700
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1800, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1800
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1900, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 1900
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc215fbec0>, q_lims=[[-6.283185307179586, 6.283185307179586]], p_lims=[[-6.0, 6.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=2000, resample_duplicates=True, rcond=1e-13, elm_bias_start=-6.283185307179586, elm_bias_end=6.283185307179586, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished network width 2000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=1000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 1000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=2000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 2000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=3000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 3000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=4000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 4000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=5000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 5000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=6000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 6000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=7000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 7000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=8000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 8000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=9000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 9000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 10000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=11000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 11000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=12000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 12000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=13000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 13000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=14000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 14000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=15000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 15000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=16000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 16000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=17000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 17000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=18000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 18000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=19000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 19000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2392b6b0>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=20000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 20000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=1000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 1000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=2000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 2000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=3000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 3000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=4000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 4000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=5000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 5000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=6000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 6000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=7000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 7000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=8000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 8000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=9000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 9000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 10000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=11000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 11000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=12000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 12000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=13000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 13000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=14000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 14000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=15000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 15000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=16000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 16000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=17000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 17000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=18000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 18000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=19000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 19000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc238cc770>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=20000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 20000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=1000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 1000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=2000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 2000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=3000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 3000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=4000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 4000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=5000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 5000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=6000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 6000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=7000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 7000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=8000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 8000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=9000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 9000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=10000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 10000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=11000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 11000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=12000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 12000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=13000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 13000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=14000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 14000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=15000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 15000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=16000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 16000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=17000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 17000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=18000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 18000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=19000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 19000
+-> starting experiment with
+domain params: SampledDomainParams(target=<hamiltonian.single_pendulum.SinglePendulum object at 0x2afc2240d970>, q_lims=[[-3.141592653589793, 3.141592653589793]], p_lims=[[-1.0, 1.0]], train_size=20000, test_size=10000, repeat=10, start_data_random_seed=3943)
+model params: SampledModelParams(activation=<ActivationType.TANH: 'tanh'>, network_width=1500, resample_duplicates=True, rcond=1e-13, elm_bias_start=-3.141592653589793, elm_bias_end=3.141592653589793, start_model_random_seed=992472)
+model random seed is now 992473
+data random seed is now 3944
+model random seed is now 992474
+data random seed is now 3945
+model random seed is now 992475
+data random seed is now 3946
+model random seed is now 992476
+data random seed is now 3947
+model random seed is now 992477
+data random seed is now 3948
+model random seed is now 992478
+data random seed is now 3949
+model random seed is now 992479
+data random seed is now 3950
+model random seed is now 992480
+data random seed is now 3951
+model random seed is now 992481
+data random seed is now 3952
+model random seed is now 992482
+data random seed is now 3953
+-> finished freq 10 train size 20000
