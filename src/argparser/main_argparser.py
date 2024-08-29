@@ -22,7 +22,6 @@ def parse_args() -> dict[str, Any]:
     # target task
     parser.add_argument("--target", type=HamiltonianType, required=True, choices=list(HamiltonianType), help="target Hamiltonian system to approximate")
     parser.add_argument("--rho", type=float, required=False, default=0., help="Dissipation coefficient of the system, 0 for no dissipation, default=0")
-    parser.add_argument("--limited-data", action="store_true", required=False, default=False, help="uses observation data of q,p only without the knowledge of true vector fields or gradients, uses rk45 to simulate the observations using a very small time step, and then uses finite differences to approximate the time derivatives, default=False")
 
     # common training/fitting args
     parser.add_argument("--train-size", type=int, required=False, default=10000, help="number of train points, default=10000")
@@ -43,7 +42,7 @@ def parse_args() -> dict[str, Any]:
     parser.add_argument("--sampling-type", type=SampledNetworkType, required=False, default=SampledNetworkType.A_SWIM, choices=list(SampledNetworkType), help="sampled network type, default=A-SWIM")
     parser.add_argument("--param-sampler", type=ParameterSampler, required=False, default=ParameterSampler.TANH, choices=list(ParameterSampler), help="parameter sampler used in the SWIM algorithm, for sampled models {S-MLP,S-HNN}, default=tanh")
     parser.add_argument("--rcond", type=float, required=False, default=1e-13, help="how precise the least-squares-solution is, for sampled models {S-MLP, S-HNN}, default=1e-13")
-    parser.add_argument("--resample-duplicates", action="store_true", required=False, default=True, help="whether to resample from data if duplicate weights are detected until we get unique weights, for sampled models {S-MLP,S-HNN}, default=True")
+    parser.add_argument("--resample-duplicates", action="store_true", required=False, default=False, help="whether to resample from data if duplicate weights are detected until we get unique weights, for sampled models {S-MLP,S-HNN}, default=True")
 
     # other args
     parser.add_argument("--dry-run", action="store_true", required=False, default=False, help="prints the task and model summary and quits")

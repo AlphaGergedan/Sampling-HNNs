@@ -52,9 +52,9 @@ model.init_params()
 
 # Datasets for training and evaluating the model
 
-train_set, test_set = get_train_test_set(input_dim // 2, target, kwargs["train_size"], kwargs["test_size"], q_lims, p_lims, rng=np.random.default_rng(DATA_RANDOM_SEED), use_fd=kwargs["limited_data"])
+train_set, test_set = get_train_test_set(input_dim // 2, target, kwargs["train_size"], kwargs["test_size"], q_lims, p_lims, rng=np.random.default_rng(DATA_RANDOM_SEED))
 
-( (train_inputs, train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) ) = train_set
+( ((train_inputs, _), train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) ) = train_set
 ( test_inputs, test_dt_truths, test_H_truths, test_H_grad_truths ) = test_set
 
 train_errors = get_model_error(model, train_inputs, (train_dt_truths, train_H_truths, train_H_grad_truths))
