@@ -52,7 +52,7 @@ model.init_params()
 
 # Datasets for training and evaluating the model
 
-train_set, test_set = get_train_test_set(input_dim // 2, target, kwargs["train_size"], kwargs["test_size"], q_lims, p_lims, rng = np.random.default_rng(DATA_RANDOM_SEED))
+train_set, test_set = get_train_test_set(input_dim // 2, target, kwargs["train_size"], kwargs["test_size"], q_lims, p_lims, rng=np.random.default_rng(DATA_RANDOM_SEED), use_fd=kwargs["limited_data"])
 
 ( (train_inputs, train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) ) = train_set
 ( test_inputs, test_dt_truths, test_H_truths, test_H_grad_truths ) = test_set
@@ -82,20 +82,3 @@ print(f"\n-> training took {time_str} seconds")
 train_errors = get_model_error(model, train_inputs, (train_dt_truths, train_H_truths, train_H_grad_truths))
 test_errors = get_model_error(model, test_inputs, (test_dt_truths, test_H_truths, test_H_grad_truths))
 print_errors(train_errors, test_errors)
-
-#
-# TODO save model under a directory, with its configuration
-# additionally log the final train and test errors to the csv file for the specified target
-
-# output directory is the target name
-# TODO: better model saving would be useful here (e.g. sampling hyperparams are unneccesary for traditional models)
-if kwargs["save"]:
-    output_dir = os.path.join("./models", kwargs["target"].value)
-    if not os.path.exists(output_dir):
-        os.mkdir(output_dir)
-
-    filename = ""
-    for k, v in kwargs.items():
-        filename += k + "=" + str(v) + "_"
-
-    dump(model, os.path.join(output_dir, f"{filename}.pkl"))
