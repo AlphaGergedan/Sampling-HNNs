@@ -58,7 +58,7 @@ for network_width in range(500, 10500, 500): #[500, 1000, .. , 10000]
         assert domain_params.test_size == 20000
         train_set, test_set = get_train_test_set(2, double_pendulum, domain_params.train_size, domain_params.test_size, domain_params.q_lims, domain_params.p_lims, rng = np.random.default_rng(DATA_RANDOM_SEED))
 
-        ( (train_inputs, train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) ) = train_set
+        ( ((train_inputs, _), train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) ) = train_set
         ( test_inputs, test_dt_truths, test_H_truths, test_H_grad_truths ) = test_set
 
         # ELM
