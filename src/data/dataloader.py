@@ -26,7 +26,7 @@ def get_batch(x, step, batch_size, requires_grad, dtype,device):
     return torch.tensor(x_batch, requires_grad=requires_grad, dtype=dtype, device=device)
 
 # ( (train_inputs, train_dt_truths, train_H_truths, train_H_grad_truths ), (train_x_0, train_x_0_H_truth) )
-train_set_type = tuple[ tuple[ndarray, ndarray, ndarray, ndarray], tuple[ndarray, ndarray] ]
+train_set_type = tuple[ tuple[tuple[ndarray, ndarray | None], ndarray, ndarray, ndarray], tuple[ndarray, ndarray] ]
 
 # ( test_inputs, test_dt_truths, test_H_truths, test_H_grad_truths )
 test_set_type = tuple[ ndarray, ndarray, ndarray, ndarray ]
@@ -79,6 +79,7 @@ def get_train_test_set(dof, target: BaseHamiltonian, train_size, test_size, q_li
         # hamilton's equations to compute target function derivatives
         train_H_grad_truths = (J_inv @ train_dt_truths.T).T
     else:
+        train_inputs_next = None
         train_dt_truths = target.dt(train_inputs)
         train_H_grad_truths = target.H_grad(train_inputs)
 
@@ -94,7 +95,7 @@ def get_train_test_set(dof, target: BaseHamiltonian, train_size, test_size, q_li
     test_H_grad_truths = target.H_grad(test_inputs)
 
 
-    train_set = ( (train_inputs, train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) )
+    train_set = ( ((train_inputs, train_inputs_next), train_dt_truths, train_H_truths, train_H_grad_truths), (train_x_0, train_x_0_H_truth) )
     test_set = ( test_inputs, test_dt_truths, test_H_truths, test_H_grad_truths )
 
     return (train_set, test_set)
