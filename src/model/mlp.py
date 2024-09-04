@@ -21,12 +21,6 @@ class MLP(nn.Module, BaseModel):
         self.flatten = nn.Flatten()
         self.linear_first = nn.Linear(input_dim, hidden_dim)
 
-        # uncomment for an extra layer
-        self.linear_extra_1 = nn.Linear(hidden_dim, hidden_dim)
-
-        # uncomment for an extra layer
-        # self.linear_extra_2 = nn.Linear(hidden_dim, hidden_dim)
-
         match activation:
             case ActivationType.TANH:
                 self.activation = torch.tanh
@@ -52,19 +46,11 @@ class MLP(nn.Module, BaseModel):
         return None
 
     def init_params(self):
-        nn.init.orthogonal_(self.linear_first.weight)
-        self.linear_first.bias.data.fill_(0.01)
+        nn.init.xavier_normal_(self.linear_first.weight)
+        nn.init.zeros_(self.linear_first.bias)
 
-        # uncomment for extra layer
-        nn.init.orthogonal_(self.linear_extra_1.weight)
-        self.linear_extra_1.bias.data.fill_(0.01)
-
-        # uncomment for extra layer
-        # nn.init.orthogonal_(self.linear_extra_2.weight)
-        # self.linear_extra_2.bias.data.fill_(0.01)
-
-        nn.init.orthogonal_(self.linear_last.weight)
-        self.linear_last.bias.data.fill_(0.01)
+        nn.init.xavier_normal_(self.linear_last.weight)
+        nn.init.zeros_(self.linear_last.bias)
 
     def H(self, x: T, create_graph=False) -> T:
         raise ValueError("plain ODE-Net does not support Hamiltonian output")
@@ -102,12 +88,6 @@ class MLP(nn.Module, BaseModel):
 
         x = self.flatten(x)
         x = self.linear_first(x)
-
-        # uncomment or extra layer
-        x = self.linear_extra_1(x)
-
-        # uncomment or extra layer
-        # x = self.linear_extra_2(x)
 
         x = self.activation(x)
         x = self.linear_last(x)
