@@ -38,4 +38,10 @@ project. Run `./main --help` for more information on the model parameters.
 - training a traditional network: `./main --target single_pendulum --model {MLP,HNN}`
 - training a sampled network: `./main --target single_pendulum --model {S-MLP,S-HNN}`
 
+Experiments
+===========
 
+- All the experiment results  listed in our paper, including all the trained models, are stored under `/experiments` as pickle files.
+- In order to reproduce the experiments, refer to the scripts `/src/*experiment.py`.
+- In order to analyze the results we prepared notebooks located at the root of the project `/analyze-*.ipynb`.
+- The scripts `/batch*.sh` are used to conduct the experiments listed in our paper in a cluster environment.
