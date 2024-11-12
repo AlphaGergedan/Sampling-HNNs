@@ -1,1 +1,2 @@
 from .sampled_experiment import SampledDomainParams, SampledModelParams, SampledModelResults, SampledExperiment, SampledModels
+from .traditinal_experiment import TraditionalDomainParams, TraditionalModelParams, TraditionalModelResults, TraditionalExperiment

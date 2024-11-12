@@ -6,7 +6,7 @@ from .grid import generate_uniform_train_test_set
 from .flow_map import flow_map_rk45
 
 
-def get_batch(x, step, batch_size, requires_grad, dtype,device):
+def get_batch(x, step, batch_size, requires_grad, dtype, device):
     """
     Simple batching for traditionally trained networks
 

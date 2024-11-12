@@ -1,2 +1,3 @@
 from .main_argparser import parse_args
 from .sampled_hnn_experiment_argparser import sampled_hnn_experiment_argparser
+from .hnn_on_cpu_experiment_argparser import hnn_on_cpu_experiment_argparser

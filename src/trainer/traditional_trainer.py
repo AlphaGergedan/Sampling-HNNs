@@ -36,12 +36,15 @@ class TraditionalTrainer(BaseTrainer):
 
         optim = Adam(model.parameters(), lr=self.learning_rate, weight_decay=self.weight_decay)
 
+        train_losses = []
+
         print("Step No. : Loss (Squared L2 Error)")
         for step in range(self.total_steps):
             # place inputs to the same device as the model
             x = get_batch(train_inputs, step, self.batch_size, requires_grad=True, dtype=torch.float32, device=self.training_device)
             dt_true = get_batch(train_dt_truths, step, self.batch_size, requires_grad=False, dtype=torch.float32, device=self.training_device)
-            self.__step(step, model, optim, x, dt_true)
+            loss = self.__step(step, model, optim, x, dt_true)
+            train_losses.append(loss)
 
         # followings are for fixing integration constants for HNNs
         if isinstance(model, HNN):
@@ -51,6 +54,8 @@ class TraditionalTrainer(BaseTrainer):
 
         # move the model to cpu
         model.cpu()
+
+        return train_losses
 
     def __step(self, step, model, optim, x, dt_true):
 
@@ -63,6 +68,8 @@ class TraditionalTrainer(BaseTrainer):
 
         if step % 1000 == 0:
             print(f"-> Loss at step {step}\t:\t{loss}")
+
+        return loss.item()
 
     def __fit_H_last_layer_bias(self, model, x, H_true):
         H_pred = model.H(x)

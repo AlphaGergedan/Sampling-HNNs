@@ -1,4 +1,4 @@
-from dataclasses import dataclass; from typing import Any
+from dataclasses import dataclass
 
 from activation import ActivationType
 from hamiltonian import BaseHamiltonian
