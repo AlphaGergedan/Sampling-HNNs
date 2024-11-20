@@ -2,7 +2,7 @@ import torch; from torch import Tensor
 
 from .device_type import DeviceType
 
-def to_tensor(x, requires_grad=False, dtype=torch.float32, device=DeviceType.CPU) -> Tensor:
+def to_tensor(x, requires_grad=False, dtype=torch.float64, device=DeviceType.CPU) -> Tensor:
     """
     Converts given input into a tensor if it is not
     """

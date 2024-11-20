@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -J double_pendulum_hnn_on_cpu_experiment
-#SBATCH -o /dss/dsshome1/0B/ge49rev3/shnn-repo/double-pendulum-hnn-on-cpu/out.txt
+#SBATCH -J henon_heiles_hnn_on_cpu_experiment
+#SBATCH -o /dss/dsshome1/0B/ge49rev3/shnn-repo/henon-heiles-hnn-on-cpu/out.txt
 #SBATCH -D ./
 #SBATCH --get-user-env
 #SBATCH --clusters=mpp3
@@ -25,4 +25,4 @@ export NUMEXPR_NUM_THREADS=$SLURM_CPUS_PER_TASK
 source /dss/dsshome1/0B/ge49rev3/.conda_init
 conda activate s-hnn
 
-python /dss/dsshome1/0B/ge49rev3/shnn-repo/src/double_pendulum_hnn_on_cpu_experiment.py --save-dir /dss/dsshome1/0B/ge49rev3/shnn-repo/double-pendulum-hnn-on-cpu --device cpu --batch-size 2048 --total-steps 180000
+python /dss/dsshome1/0B/ge49rev3/shnn-repo/src/henon_heiles_hnn_on_cpu_experiment.py --save-dir /dss/dsshome1/0B/ge49rev3/shnn-repo/henon-heiles-hnn-on-cpu --device cpu --batch-size 2048 --total-steps 180000

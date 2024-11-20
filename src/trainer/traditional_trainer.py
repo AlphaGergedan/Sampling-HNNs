@@ -16,8 +16,8 @@ class TraditionalTrainer(BaseTrainer):
         self.weight_decay = weight_decay
         self.training_device = device
 
-    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device=DeviceType.GPU, train_H_truths=None):
-        super(TraditionalTrainer, self).train(model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device)
+    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device=DeviceType.GPU, dtype=torch.float64, train_H_truths=None):
+        super(TraditionalTrainer, self).train(model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device, dtype, train_H_truths)
         assert train_H_truths is None # only used for supervised SWIM in S-HNN
 
         from model.mlp import MLP
@@ -41,15 +41,15 @@ class TraditionalTrainer(BaseTrainer):
         print("Step No. : Loss (Squared L2 Error)")
         for step in range(self.total_steps):
             # place inputs to the same device as the model
-            x = get_batch(train_inputs, step, self.batch_size, requires_grad=True, dtype=torch.float32, device=self.training_device)
-            dt_true = get_batch(train_dt_truths, step, self.batch_size, requires_grad=False, dtype=torch.float32, device=self.training_device)
+            x = get_batch(train_inputs, step, self.batch_size, requires_grad=True, dtype=dtype, device=self.training_device)
+            dt_true = get_batch(train_dt_truths, step, self.batch_size, requires_grad=False, dtype=dtype, device=self.training_device)
             loss = self.__step(step, model, optim, x, dt_true)
             train_losses.append(loss)
 
         # followings are for fixing integration constants for HNNs
         if isinstance(model, HNN):
-            x = get_batch(train_input_x_0, 0, 1, requires_grad=False, dtype=torch.float32, device=self.training_device)
-            H_true = get_batch(train_input_x_0_H_truth, 0, 1, requires_grad=False, dtype=torch.float32, device=self.training_device)
+            x = get_batch(train_input_x_0, 0, 1, requires_grad=False, dtype=dtype, device=self.training_device)
+            H_true = get_batch(train_input_x_0_H_truth, 0, 1, requires_grad=False, dtype=dtype, device=self.training_device)
             self.__fit_H_last_layer_bias(model, x, H_true)
 
         # move the model to cpu

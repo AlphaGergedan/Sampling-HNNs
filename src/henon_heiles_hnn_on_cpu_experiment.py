@@ -1,5 +1,5 @@
 """
-This file conducts double pendulum experiment and train an HNN on cpu
+This file conducts henon-heiles experiment and train an HNN on cpu
 to make a fair comparison (uses the same hardware as the sampled ones).
 """
 
@@ -31,8 +31,8 @@ from util.device_type import DeviceType
 from argparser import hnn_on_cpu_experiment_argparser
 
 # system
-from hamiltonian.double_pendulum import DoublePendulum
-double_pendulum = DoublePendulum()
+from hamiltonian.henon_heiles import HenonHeiles
+henon_heiles = HenonHeiles(alpha=1.0)
 torch.set_default_dtype(torch.float64) # use double precision
 
 kwargs: dict[str, Any] = hnn_on_cpu_experiment_argparser()
@@ -44,15 +44,17 @@ train_size = 20000
 test_size = 20000
 data_random_seed = 3943 # same seed is used in the sampling experiments
 model_random_seed = 992472 # same seed used in the sampling experiments
-q_lims = [ [-np.pi, np.pi], [-np.pi, np.pi] ]
-p_lims = [ [-1., 1.], [-1., 1.] ]
+q_lims = [ [-5., 5.], [-5., 5.] ]
+p_lims = [ [-5., 5.], [-5., 5.] ]
+kwargs["min_input"] = np.min([q_lims, p_lims])
+kwargs["max_input"] = np.max([q_lims, p_lims])
 batch_size = 2048
 
 assert kwargs["data_random_seed"] == data_random_seed
 assert kwargs["model_random_seed"] == model_random_seed
 assert kwargs["batch_size"] == batch_size
 
-domain_params = TraditionalDomainParams(target=double_pendulum, q_lims=q_lims, p_lims=p_lims, train_size=train_size, test_size=test_size, batch_size=batch_size, data_random_seed=data_random_seed)
+domain_params = TraditionalDomainParams(target=henon_heiles, q_lims=q_lims, p_lims=p_lims, train_size=train_size, test_size=test_size, batch_size=batch_size, data_random_seed=data_random_seed)
 
 # train parameters
 network_width = 5000

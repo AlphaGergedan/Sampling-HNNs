@@ -1,11 +1,13 @@
 from abc import ABC, abstractmethod
+from torch import dtype
+from typing import Any, Optional
 
 from util import DeviceType
 
 
 class BaseTrainer(ABC):
     @abstractmethod
-    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device: DeviceType, train_H_truths=None):
+    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device: DeviceType, dtype: Optional[dtype], train_H_truths=None) -> Any:
         """
 
         @param model                    : model to be trained
@@ -13,6 +15,8 @@ class BaseTrainer(ABC):
         @param train_dt_truths          : time derivatives of the training inputs, i.e. (q_dot, p_dot)
         @param train_input_x_0          : known point where we know the true function value, i.e. (q_0, p_0)
         @param train_input_x_0_H_truth  : the Hamiltonian function value at train_input_x_0
+        @param dtype                    : optional torch dtype for traditional training
+        @param device                   : torch device cpu or gpu
         @param train_H_truths           : only used for the supervised SWIM method in S-HNN
         """
         _, input_dim = train_inputs.shape

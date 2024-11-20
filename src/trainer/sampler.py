@@ -19,8 +19,8 @@ class Sampler(BaseTrainer):
         self.sampling_type = sampling_type
         self.param_sampler = param_sampler
 
-    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device, train_H_truths=None):
-        super(Sampler, self).train(model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device)
+    def train(self, model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device, dtype=None, train_H_truths=None):
+        super(Sampler, self).train(model, train_inputs, train_dt_truths, train_input_x_0, train_input_x_0_H_truth, device, dtype, train_H_truths)
 
         from model.s_mlp import S_MLP
         from model.s_hnn import S_HNN
