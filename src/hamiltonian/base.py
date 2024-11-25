@@ -10,7 +10,6 @@ class BaseHamiltonian(ABC):
     def dt(self, x) -> Any:
         """
         Returns system dynamics (time derivatives of the input (q,p)) using Hamilton's equations
-        and dissipative part given input x=(q,p).
 
         @param x    : input
 
@@ -18,11 +17,11 @@ class BaseHamiltonian(ABC):
         @return: (q_dot, p_dot)
         """
 
-        # gradients of the Hamiltonian and the dissipative part of shape (_, 2), one for w.r.t. q, one for p
+        # gradients of the Hamiltonian of shape (_, 2), one for w.r.t. q, one for p
         H_grad = self.H_grad(x)
         H_grad_q, H_grad_p = np.split(H_grad, 2, axis=1)
 
-        # Hamilton's Equations, and dissipative part together
+        # Hamilton's Equations
         q_dot =  H_grad_p
         p_dot = -H_grad_q
 
