@@ -4,7 +4,7 @@
   </h1>
 
   <h4>
-    Source code for our <a href="https://arxiv.org">paper</a> on approximating Hamiltonian with sampled neural networks
+    Source code for our <a href="https://arxiv.org/abs/2411.17511">paper</a> on approximating Hamiltonian with sampled neural networks
   </h4>
 </div>
 
@@ -59,7 +59,7 @@
   python src/main_limited_data.py --target single_pendulum --model S-HNN
   ```
 
-  For details you can refer to our paper <a href="https://arxiv.org">paper</a>.
+  For details you can refer to our paper <a href="https://arxiv.org/abs/2411.17511">paper</a>.
 </details>
 
 ---
@@ -83,9 +83,6 @@
     <h2>Citation</h2>
   </summary>
 
-  If you use Sampled-HNNs in your research, please cite the following <a href="https://arxiv.org">paper</a>:
-  ```
-  CITATION
-  ```
+  If you use Sampled-HNNs in your research, please cite our <a href="https://arxiv.org">paper</a>.
 
 </details>
