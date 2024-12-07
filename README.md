@@ -83,6 +83,6 @@
     <h2>Citation</h2>
   </summary>
 
-  If you use Sampled-HNNs in your research, please cite our <a href="https://arxiv.org">paper</a>.
+  If you use Sampled-HNNs in your research, please cite our <a href="https://arxiv.org/abs/2411.17511">paper</a>.
 
 </details>
