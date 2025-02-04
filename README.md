@@ -36,6 +36,16 @@
     <h2>Setup</h2>
   </summary>
 
+  ### Submodule
+  This project depends on the submodule `swimnetworks`:
+  ```sh
+  git submodule init
+  git submodule update
+  ```
+  to clone the submodule.
+
+  ### Environment
+
   Create the conda environment:
   ```sh
   conda env create --file=environments.yml
